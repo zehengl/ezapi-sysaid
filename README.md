@@ -1,0 +1,16 @@
+<div align="center">
+    <img src="https://cdn0.iconfinder.com/data/icons/online-shopping-fill-shoppers-features/512/24-hrs_service-512.png" alt="logo" height="196">
+</div>
+
+# ezapi-sysaid
+
+![coding_style](https://img.shields.io/badge/code%20style-black-000000.svg)
+
+A Python wrapper for SysAid REST API
+
+## Credits
+
+- [Logo][1] by [Chanut is Industries][2]
+
+[1]: https://www.iconfinder.com/icons/7581528/24_hours_service_online_smartphone_support_application_message_icon
+[2]: https://www.iconfinder.com/Chanut-is

@@ -1,0 +1,31 @@
+site_name: ezapi-sysaid
+nav:
+  - Home: index.md
+theme:
+  name: material
+  favicon: https://cdn0.iconfinder.com/data/icons/online-shopping-fill-shoppers-features/512/24-hrs_service-512.png
+  logo: https://cdn0.iconfinder.com/data/icons/online-shopping-fill-shoppers-features/512/24-hrs_service-512.png
+  font:
+    text: Roboto
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features:
+    - header.autohide
+plugins:
+  - search
+  - tags
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
