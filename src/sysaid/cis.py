@@ -1,0 +1,2 @@
+class CIsMixin:
+    pass
