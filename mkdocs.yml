@@ -22,6 +22,8 @@ theme:
         name: Switch to light mode
   features:
     - header.autohide
+repo_name: zehengl/ezapi-sysaid
+repo_url: https://github.com/zehengl/ezapi-sysaid
 plugins:
   - search
   - tags
@@ -29,3 +31,9 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       type: date
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zehengl
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/zehengl
