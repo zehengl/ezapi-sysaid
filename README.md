@@ -9,6 +9,12 @@
 
 A Python wrapper for SysAid REST API
 
+## Install
+
+From [GitHub](https://github.com/zehengl/ezapi-sysaid)
+
+    pip install git+https://github.com/zehengl/ezapi-sysaid.git
+
 ## Credits
 
 - [Logo][1] by [Chanut is Industries][2]
