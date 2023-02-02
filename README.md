@@ -4,6 +4,7 @@
 
 # ezapi-sysaid
 
+[![pytest](https://github.com/zehengl/ezapi-sysaid/actions/workflows/pytest.yml/badge.svg)](https://github.com/zehengl/ezapi-sysaid/actions/workflows/pytest.yml)
 ![coding_style](https://img.shields.io/badge/code%20style-black-000000.svg)
 
 A Python wrapper for SysAid REST API
