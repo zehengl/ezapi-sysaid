@@ -30,10 +30,14 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized:
-      type: date
+      type: timeago
+      enable_creation_date: true
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/zehengl
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/zehengl
+markdown_extensions:
+  - attr_list
+  - md_in_html
