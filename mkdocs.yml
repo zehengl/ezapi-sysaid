@@ -22,7 +22,7 @@ theme:
         name: Switch to light mode
   features:
     - header.autohide
-repo_name: zehengl/ezapi-sysaid
+repo_name: ezapi-sysaid
 repo_url: https://github.com/zehengl/ezapi-sysaid
 plugins:
   - search
