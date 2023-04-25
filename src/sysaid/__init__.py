@@ -1,9 +1,11 @@
 import requests
 
 from .login import LoginMixin
+from .users import UsersMixin
 
 mixins = [
     LoginMixin,
+    UsersMixin,
 ]
 
 
