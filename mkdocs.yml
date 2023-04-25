@@ -22,6 +22,8 @@ theme:
         name: Switch to light mode
   features:
     - header.autohide
+    - content.code.copy
+    - navigation.top
 repo_name: ezapi-sysaid
 repo_url: https://github.com/zehengl/ezapi-sysaid
 plugins:
@@ -41,3 +43,10 @@ extra:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

@@ -5,3 +5,19 @@
 # ezapi-sysaid
 
 A Python wrapper for SysAid REST API
+
+## Install
+
+    pip install ezapi-sysaid
+
+## Usage
+
+```python
+from sysaid import SysAid
+
+host = "..."
+username = "..."
+password = "..."
+
+s = SysAid(host, username, password)
+```
