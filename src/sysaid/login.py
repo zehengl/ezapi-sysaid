@@ -11,8 +11,5 @@ class LoginMixin:
             "user_name": self.username,
             "password": self.password,
         }
-        headers = {
-            "content-type": "application/x-www-form-urlencoded",
-        }
 
-        return self.make_request("POST", url, headers=headers, data=data)
+        return self.make_request("POST", url, json=data)
