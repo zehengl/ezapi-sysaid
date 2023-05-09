@@ -6,6 +6,10 @@
 
 [![pytest](https://github.com/zehengl/ezapi-sysaid/actions/workflows/pytest.yml/badge.svg)](https://github.com/zehengl/ezapi-sysaid/actions/workflows/pytest.yml)
 ![coding_style](https://img.shields.io/badge/code%20style-black-000000.svg)
+![PyPI - License](https://img.shields.io/pypi/l/ezapi-sysaid)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ezapi-sysaid)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/ezapi-sysaid)
+[![Downloads](https://pepy.tech/badge/ezapi-sysaid)](https://pepy.tech/project/ezapi-sysaid)
 
 A Python wrapper for SysAid REST API
 
@@ -18,6 +22,10 @@ From [PyPi](https://pypi.org/project/ezapi-sysaid/)
 From [GitHub](https://github.com/zehengl/ezapi-sysaid)
 
     pip install git+https://github.com/zehengl/ezapi-sysaid.git
+
+## Usage
+
+Check out these [examples](https://zehengl.github.io/ezapi-sysaid/endpoints/).
 
 ## Credits
 
