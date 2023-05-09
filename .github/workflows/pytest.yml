@@ -22,7 +22,7 @@ jobs:
           pip install -r requirements-test.txt
           pip install -e .
           pytest
-          env:
-            sysaid_host: ${{ secrets.SYSAID_HOST }}
-            sysaid_username: ${{ secrets.SYSAID_USERNAME }}
-            sysaid_password: ${{ secrets.SYSAID_PASSWORD }}
+        env:
+          sysaid_host: ${{ secrets.SYSAID_HOST }}
+          sysaid_username: ${{ secrets.SYSAID_USERNAME }}
+          sysaid_password: ${{ secrets.SYSAID_PASSWORD }}
