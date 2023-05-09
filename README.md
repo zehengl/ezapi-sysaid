@@ -11,6 +11,10 @@ A Python wrapper for SysAid REST API
 
 ## Install
 
+From [PyPi](https://pypi.org/project/ezapi-sysaid/)
+
+    pip install ezapi-sysaid
+
 From [GitHub](https://github.com/zehengl/ezapi-sysaid)
 
     pip install git+https://github.com/zehengl/ezapi-sysaid.git
