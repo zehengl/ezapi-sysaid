@@ -1,10 +1,24 @@
 import requests
 
+from .action_items import ActionItemsMixin
+from .add_ons import AddOnsMixin
+from .assets import AssetsMixin
+from .filters import FiltersMixin
+from .lists import ListsMixin
 from .login import LoginMixin
+from .password_services import PasswordServicesMixin
+from .service_requests import ServiceRequestsMixin
 from .users import UsersMixin
 
 mixins = [
+    ActionItemsMixin,
+    AddOnsMixin,
+    AssetsMixin,
+    FiltersMixin,
+    ListsMixin,
     LoginMixin,
+    PasswordServicesMixin,
+    ServiceRequestsMixin,
     UsersMixin,
 ]
 
@@ -16,6 +30,8 @@ class SysAid(*mixins):
         self.password = password
 
         self.session = requests.Session()
+
+        self.login()
 
     def make_request(self, method, url, **kwargs):
         return self.session.request(method, url, **kwargs)
