@@ -1,12 +1,8 @@
 [project]
 name = "ezapi-sysaid"
 dynamic = ["version", "dependencies"]
-authors = [
-    { name = "Zeheng Li", email = "imzehengl@gmail.com" },
-]
-maintainers = [
-    { name = "Zeheng Li", email = "imzehengl@gmail.com" },
-]
+authors = [{ name = "Zeheng Li", email = "imzehengl@gmail.com" }]
+maintainers = [{ name = "Zeheng Li", email = "imzehengl@gmail.com" }]
 description = "A Python wrapper for SysAid REST API"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -15,6 +11,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+
+[project.urls]
+repository = "https://github.com/zehengl/ezapi-sysaid"
+homepage = "https://zehengl.github.io/ezapi-sysaid/"
 
 
 [tool.setuptools_scm]
