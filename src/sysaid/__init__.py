@@ -24,14 +24,15 @@ mixins = [
 
 
 class SysAid(*mixins):
-    def __init__(self, host, username, password):
+    def __init__(self, host, username, password, login=True):
         self.host = host
         self.username = username
         self.password = password
 
         self.session = requests.Session()
 
-        self.login()
+        if login:
+            self.login()
 
     def make_request(self, method, url, **kwargs):
         return self.session.request(method, url, **kwargs)
