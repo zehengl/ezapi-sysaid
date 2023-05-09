@@ -1,6 +1,9 @@
 site_name: ezapi-sysaid
 nav:
   - Home: index.md
+  - Endpoints:
+      - endpoints/index.md
+      - Users: endpoints/users.md
 theme:
   name: material
   favicon: https://cdn0.iconfinder.com/data/icons/online-shopping-fill-shoppers-features/512/24-hrs_service-512.png
@@ -34,6 +37,7 @@ plugins:
   - git-revision-date-localized:
       type: timeago
       enable_creation_date: true
+  - section-index
 extra:
   social:
     - icon: fontawesome/brands/github

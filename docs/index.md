@@ -21,3 +21,5 @@ password = "..."
 
 s = SysAid(host, username, password)
 ```
+
+See detailed usages at [Endpoints](endpoints/index.md) page.
