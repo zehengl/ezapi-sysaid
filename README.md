@@ -9,7 +9,7 @@
 ![PyPI - License](https://img.shields.io/pypi/l/ezapi-sysaid)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ezapi-sysaid)
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/ezapi-sysaid)
-[![Downloads](https://pepy.tech/badge/ezapi-sysaid)](https://pepy.tech/project/ezapi-sysaid)
+[![Downloads](https://static.pepy.tech/badge/ezapi-sysaid)](https://pepy.tech/project/ezapi-sysaid)
 
 A Python wrapper for SysAid REST API
 
