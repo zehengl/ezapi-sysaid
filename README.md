@@ -10,6 +10,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ezapi-sysaid)
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/ezapi-sysaid)
 [![Downloads](https://static.pepy.tech/badge/ezapi-sysaid)](https://pepy.tech/project/ezapi-sysaid)
+[![GitHub Pages](https://github.com/zehengl/ezapi-sysaid/actions/workflows/gh-deploy.yml/badge.svg)](https://github.com/zehengl/ezapi-sysaid/actions/workflows/gh-deploy.yml)
 
 A Python wrapper for SysAid REST API
 
