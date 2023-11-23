@@ -27,6 +27,9 @@ theme:
     - header.autohide
     - content.code.copy
     - navigation.top
+    - navigation.footer
+    - navigation.tabs
+    - navigation.indexes
 repo_name: ezapi-sysaid
 repo_url: https://github.com/zehengl/ezapi-sysaid
 plugins:
@@ -37,7 +40,6 @@ plugins:
   - git-revision-date-localized:
       type: timeago
       enable_creation_date: true
-  - section-index
 extra:
   social:
     - icon: fontawesome/brands/github
