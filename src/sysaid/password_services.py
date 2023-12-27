@@ -1,6 +1,5 @@
 from urllib.parse import urljoin
 
-
 from .core import process_response
 
 
