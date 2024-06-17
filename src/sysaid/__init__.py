@@ -7,6 +7,7 @@ from .filters import FiltersMixin
 from .lists import ListsMixin
 from .login import LoginMixin
 from .password_services import PasswordServicesMixin
+from .resource_bundle import ResourceBundleMixin
 from .service_requests import ServiceRequestsMixin
 from .users import UsersMixin
 
@@ -19,6 +20,7 @@ mixins = [
     LoginMixin,
     PasswordServicesMixin,
     ServiceRequestsMixin,
+    ResourceBundleMixin,
     UsersMixin,
 ]
 
