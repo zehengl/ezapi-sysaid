@@ -3,6 +3,8 @@ nav:
   - Home: index.md
   - Endpoints:
       - endpoints/index.md
+      - Action Items: endpoints/action_items.md
+      - Add-Ons: endpoints/add_ons.md
       - Filters: endpoints/filters.md
       - Service Requests: endpoints/service_requests.md
       - Users: endpoints/users.md
