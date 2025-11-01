@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://cdn0.iconfinder.com/data/icons/online-shopping-fill-shoppers-features/512/24-hrs_service-512.png" alt="logo" height="128">
+    <img src="https://raw.githubusercontent.com/zehengl/ezapi-sysaid/main/logo.png" alt="logo" height="128">
 </div>
 
 # ezapi-sysaid
