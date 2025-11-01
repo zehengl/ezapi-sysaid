@@ -27,10 +27,3 @@ From [GitHub](https://github.com/zehengl/ezapi-sysaid)
 ## Usage
 
 Check out these [examples](https://zehengl.github.io/ezapi-sysaid/endpoints/).
-
-## Credits
-
-- [Logo][1] by [Chanut is Industries][2]
-
-[1]: https://www.iconfinder.com/icons/7581528/24_hours_service_online_smartphone_support_application_message_icon
-[2]: https://www.iconfinder.com/Chanut-is
