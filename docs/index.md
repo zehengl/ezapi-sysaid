@@ -1,5 +1,5 @@
 <figure markdown>
-![Logo](https://cdn0.iconfinder.com/data/icons/online-shopping-fill-shoppers-features/512/24-hrs_service-512.png){ width="100" }
+![Logo](https://raw.githubusercontent.com/zehengl/ezapi-sysaid/main/logo.png){ width="100" }
 </figure>
 
 # ezapi-sysaid
